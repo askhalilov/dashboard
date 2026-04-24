@@ -1,0 +1,21 @@
+{
+  "name": "student-board-vue-ready",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "backend": "node server/index.js",
+    "dev:full": "node scripts/dev-full.js",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "vite": "latest",
+    "vue": "latest",
+    "lucide-vue-next": "latest"
+  },
+  "devDependencies": {}
+}
